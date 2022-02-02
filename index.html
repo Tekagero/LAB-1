@@ -1,0 +1,51 @@
+<!doctype html>
+
+<html lang="en">
+  	<head>
+	  	<link href="index.css" type="text/css" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@700&display=swap" rel="stylesheet">
+  		<title>Дементьев А.В. ЛР1</title>
+   	 	<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+		<body>
+			<div class="page">
+				<div class="page-frame">
+					<div class="frame-title" align="center">Дементьев Александр Владимирович</div>
+					<div class="photo"><img src="fotosessi.jpg"></div>
+					<div class="content"><div class="text"> Опыт работы с пакетом <b><i>MS Office</i></b>, владение языками программирования <b><i>JAVA</i>, <i>PHP</i>, <i>C</i>, <i>C++</i>, <i>C#</i></b>.
+						<br>Работал с  операционными системами <b><i>Linux</i>, <i>Windows</i></b>.
+						<br>Создавал приложения на языке <b><i>JAVA</i></b> при помощи библиотеки <b><i>JAVA.fx</i></b> и базы данных <b><i>MYSQL</i></b>.
+						<br>Владею английским языком на уровне <b><i>C1</i></b></div>
+
+						<div class="contacts">
+							<div class="contacts-vk"><a target="_blank" href="https://vk.com/alddementew"><img src="vk-logo-psd.png" ></a></div>
+							<div class="contacts-gmail"><img src="gmail-1.png"  id="a" onclick="copy()"></div>
+					<script>
+						function copy() {
+							const str = "aleklip01@gmail.com"
+							const el = document.createElement('textarea');
+							el.value = str;
+							el.setAttribute('readonly', '');
+							el.style.position = 'absolute';
+							el.style.left = '-9999px';
+							document.body.appendChild(el);
+							el.select();
+							document.execCommand("copy");
+							alert("Скопирован текст: " + el.value);
+						}
+					</script>
+							<div class="contacts-github"><a target="_blank" href="https://github.com/Tekagero"><img src="25231.png" ></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</body>
+</html>
+
